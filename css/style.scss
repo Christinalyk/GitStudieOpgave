@@ -7,7 +7,7 @@
 
 body {
   margin: 0; // Ingen kanter i siden af browser
-  background-color:red;
+
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -36,6 +36,7 @@ img {
   max-width: 100%; // Bredde må maks fylde 100%
   height: auto; // Højden skal tilpasse sig
 }
+
 
 .grid {
   display: grid;
@@ -97,8 +98,6 @@ background-color: skyblue;
   background-color: darkslateblue;
 }
 
-
-
 // Variabler - med størrelser
 $s: 'only screen and (min-width: 768px)'; // Tablet stående
 $m: 'only screen and (min-width: 992px)'; // Tablet liggende
@@ -107,21 +106,21 @@ $l: 'only screen and (min-width: 1200px)'; // Computer
 @media #{$s} {
   // Alt der ændres i tablet stående fra mobil
   body{
-    background-color: #ddd;
+
   }
 }
 
 @media #{$m} {
   // Alt der ændres i tablet liggende fra mobil og tablet stående
   body{
-    background-color: #ddd;
+
   }
 }
 
 @media #{$l} {
   // Alt der ændres i computer fra mobil, tablet stående og tablet liggende
   body{
-    background-color: #ddd;
+
   }
 }
 

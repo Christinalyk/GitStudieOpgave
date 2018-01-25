@@ -37,6 +37,17 @@ img {
   height: auto; // Højden skal tilpasse sig
 }
 
+$violet: #87509c;
+$green: #17c2a4;
+$grey: #e7f1f8;
+$white:#ffffff;
+$yellow: #ffdd99;
+$red: #d74680;
+$blue: #3c5499;
+$darkblue: #344b8e;
+
+
+
 .grid {
   display: grid;
   grid-template-columns: repeat(6, 1fr);

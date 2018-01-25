@@ -7,7 +7,7 @@
 
 body {
   margin: 0; // Ingen kanter i siden af browser
-
+  background-color:red;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -37,11 +37,10 @@ img {
   height: auto; // Højden skal tilpasse sig
 }
 
-
 .grid {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: 300px 400px 400px 400px 300px 300px 300px;
+  grid-template-rows: 350px 400px 400px 400px 300px 500px 500px;
   grid-template-areas:
           "a1 b1 c1 d1 e1 f1"
           "a2 b2 c2 d2 e2 f2"
@@ -60,26 +59,26 @@ img {
 
 .red {
 grid-column: a1 /f1;
-background-color: blueviolet;
+background-color: #87509c;
 grid-row: a1/a2;
 }
 
 .blue {
 grid-column: a2 /f2;
 grid-row: a2/a3;
-background-color: skyblue;
+background-color: #17c2a4;
 }
 
 .grey {
   grid-column: a3 /f3;
   grid-row: a3/a4;
-  background-color: grey;
+  background-color: #e7f1f8;
 }
 
 .white{
   grid-column: a4 /f4;
   grid-row: a4/a5;
-  background-color: white;
+  background-color:white;
 }
 
 .yellow{
@@ -90,13 +89,21 @@ background-color: skyblue;
 .magenta{
   grid-column: a6 /f6;
   grid-row: a6/a7;
-  background-color: mediumvioletred;
+  background-color: #d74680;
 }
 .darkblue{
   grid-column: a7 /f7;
   grid-row: a7/a8;
-  background-color: darkslateblue;
+  background-color: #3c5499;
 }
+.footerboks{
+  grid-column: a7 /f8;
+  grid-row: a7/a8;
+  background-color: #344b8e;
+  height: 80px;
+  align-self: end;
+}
+
 
 // Variabler - med størrelser
 $s: 'only screen and (min-width: 768px)'; // Tablet stående
@@ -106,21 +113,21 @@ $l: 'only screen and (min-width: 1200px)'; // Computer
 @media #{$s} {
   // Alt der ændres i tablet stående fra mobil
   body{
-
+    background-color: #ddd;
   }
 }
 
 @media #{$m} {
   // Alt der ændres i tablet liggende fra mobil og tablet stående
   body{
-
+    background-color: #ddd;
   }
 }
 
 @media #{$l} {
   // Alt der ændres i computer fra mobil, tablet stående og tablet liggende
   body{
-
+    background-color: #ddd;
   }
 }
 

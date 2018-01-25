@@ -200,14 +200,27 @@ background-color: #17c2a4;
 .yellowbilleder{
   height:150px;
   grid-column: b7/b7;
-  grid-row: b22/b22;
+  grid-row: b21/b21;
   text-align: center;
 }
 .yellowbilleder2{
   height:150px;
   grid-column: d7/d7;
-  grid-row: b22/b22;
+  grid-row: b21/b21;
   text-align: center;
+}
+
+.yellowknap{
+  grid-column: c7/d7;
+  grid-row: b23/b23;
+  text-align: center;
+  a {
+    padding:20px 40px;
+    background-color:$green;
+    text-decoration: none;
+    color:$white;
+    border-radius:5px;
+  }
 }
 
 .magenta{

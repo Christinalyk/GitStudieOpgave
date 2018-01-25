@@ -129,14 +129,25 @@ img {
 .yellowbilleder {
   height: 150px;
   grid-column: b7/b7;
-  grid-row: b22/b22;
+  grid-row: b21/b21;
   text-align: center; }
 
 .yellowbilleder2 {
   height: 150px;
   grid-column: d7/d7;
-  grid-row: b22/b22;
+  grid-row: b21/b21;
   text-align: center; }
+
+.yellowknap {
+  grid-column: c7/d7;
+  grid-row: b23/b23;
+  text-align: center; }
+  .yellowknap a {
+    padding: 20px 40px;
+    background-color: #17c2a4;
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 5px; }
 
 .magenta {
   grid-column: a17 / f17;

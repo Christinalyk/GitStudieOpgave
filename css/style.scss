@@ -156,16 +156,60 @@ background-color: #17c2a4;
 .white{
   grid-column: a6 / f6;
   grid-row: a16 / a19;
-
   background-color:white;
+}
+
+.whitetekst{
+  text-align:center;
+  grid-column: c7/d7;
+  grid-row: c17/d17;
+}
+
+.whitebilleder1 {
+  grid-column: b9/e9;
+  grid-row: b18/c18;
+}
+.whitebilleder2{
+  grid-column: c9/e9;
+  grid-row: c18/d18;
+}
+.whitebilleder3{
+  grid-column: d9/e9;
+  grid-row: d18/e18;
+}
+.whitebilleder4{
+  grid-column: e9/e9;
+  grid-row: e18/f18;
 }
 
 .yellow{
   grid-column: a7 / f7;
   grid-row: a20 / a23;
-
   background-color: #ffdd99;
 }
+
+.yellowtekst{
+  grid-column: c7/d7;
+  grid-row: c20/c20;
+  text-align: center;
+  ul{list-style-type: none; margin-top:20px;}
+  li{display: inline; padding:10px 15px; border-radius:5px; background-color:$grey;}
+  li:hover{background-color:$white;}
+}
+
+.yellowbilleder{
+  height:150px;
+  grid-column: b7/b7;
+  grid-row: b22/b22;
+  text-align: center;
+}
+.yellowbilleder2{
+  height:150px;
+  grid-column: d7/d7;
+  grid-row: b22/b22;
+  text-align: center;
+}
+
 .magenta{
   grid-column: a17 / f17;
   grid-row: a24 / a26;

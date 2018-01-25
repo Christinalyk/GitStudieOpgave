@@ -75,10 +75,161 @@ img {
   grid-row: a7 / a11;
   background-color: #17c2a4; }
 
+.servicetekst {
+  grid-column: b6 / e6;
+  grid-row: b8 / b8;
+  font-size: 25px;
+  text-align: center;
+  margin-left: 4%;
+  margin-top: -10%;
+  color: white; }
+
+.flag {
+  grid-column: a7 / c7;
+  grid-row: b9 / b9;
+  margin-left: 20%; }
+
+.blyant {
+  grid-column: b7 / c7;
+  grid-row: b9 / b9;
+  margin-left: 50%; }
+
+.hjul {
+  grid-column: c7 / d7;
+  grid-row: b9 / b9;
+  margin-left: 50%; }
+
+.raket {
+  grid-column: e7 / f7;
+  grid-row: b9 / b9;
+  margin-left: 25%; }
+
+.flagtekst {
+  color: #ffffff;
+  text-align: center;
+  grid-column: a10 / b10;
+  grid-row: b10 / b10; }
+
+.blyanttekst {
+  color: #ffffff;
+  text-align: center;
+  grid-column: b10 / c10;
+  grid-row: b10 / b10;
+  margin-left: 30%; }
+
+.hjultekst {
+  color: #ffffff;
+  text-align: center;
+  grid-column: d10 / d10;
+  grid-row: b10 / b10; }
+
+.rakettekst {
+  color: #ffffff;
+  text-align: center;
+  grid-column: e10 / f10;
+  grid-row: b10 / b10; }
+
 .grey {
   grid-column: a8 / f8;
   grid-row: a12 / a15;
   background-color: #e7f1f8; }
+
+.meettheteam {
+  grid-column: c9 / e9;
+  grid-row: a12 / a12;
+  margin-top: 5%; }
+
+.cirkela {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background-color: grey;
+  grid-column: a10 / b10;
+  grid-row: a13 / a15;
+  margin-left: 35%; }
+
+.cirkelb {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background-color: grey;
+  grid-column: c10 / d10;
+  grid-row: a13 / a15;
+  margin-left: 10%;
+  padding-left: 10px; }
+
+.cirkelc {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background-color: grey;
+  grid-column: d10 / d10;
+  grid-row: a13 / a15;
+  margin-left: 35%; }
+
+.cirkeld {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background-color: grey;
+  grid-column: e10 / e10;
+  grid-row: a13 / a15;
+  margin-left: 20%; }
+
+.team {
+  grid-column: a10 / f10;
+  grid-row: a14 / a15; }
+  .team li {
+    display: inline;
+    font-size: 25px;
+    margin-left: 7%; }
+
+.annetekst {
+  text-align: center;
+  font-size: 15px;
+  color: black;
+  grid-column: a10 / b10;
+  grid-row: a14 / a15;
+  margin-top: 12%;
+  margin-left: 10%; }
+  .annetekst span {
+    color: #3c5499;
+    font-size: 19px; }
+
+.katetekst {
+  text-align: center;
+  font-size: 15px;
+  color: black;
+  grid-column: c10 / d10;
+  grid-row: a14 / a15;
+  margin-top: 8%;
+  margin-right: 45%; }
+  .katetekst span {
+    color: #3c5499;
+    font-size: 19px; }
+
+.oliviatekst {
+  text-align: center;
+  font-size: 15px;
+  color: black;
+  grid-column: d10 / d10;
+  grid-row: a14 / a15;
+  margin-top: 12%;
+  margin-left: 15%; }
+  .oliviatekst span {
+    color: #3c5499;
+    font-size: 19px; }
+
+.ashleytekst {
+  text-align: center;
+  font-size: 15px;
+  color: black;
+  grid-column: e10 / e10;
+  grid-row: a14 / a15;
+  margin-top: 19%; }
+  .ashleytekst span {
+    color: #3c5499;
+    font-size: 19px; }
 
 .white {
   grid-column: a6 / f6;

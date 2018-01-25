@@ -83,7 +83,7 @@ img {
 .white {
   grid-column: a6 / f6;
   grid-row: a16 / a19;
-  background-color: white; }
+  background-color: #ffffff; }
 
 .yellow {
   grid-column: a7 / f7;
@@ -167,6 +167,8 @@ img {
     text-decoration: none;
     color: white;
     margin: 25px; }
+  .footerboks a:hover {
+    color: #ffdd99; }
 
 @media only screen and (min-width: 768px) {
   body {

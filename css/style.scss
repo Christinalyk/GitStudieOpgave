@@ -143,28 +143,28 @@ grid-row: a1/a6;
   grid-column: a6 / f7;
   grid-row: a7 / a11;
 
-background-color: #17c2a4;
+background-color: $green;
 }
 
 .grey {
   grid-column: a8 / f8;
   grid-row: a12 / a15;
 
-  background-color: #e7f1f8;
+  background-color: $grey;
 }
 
 .white{
   grid-column: a6 / f6;
   grid-row: a16 / a19;
 
-  background-color:white;
+  background-color: $white;
 }
 
 .yellow{
   grid-column: a7 / f7;
   grid-row: a20 / a23;
 
-  background-color: #ffdd99;
+  background-color: $yellow;
 }
 .magenta{
   grid-column: a17 / f17;
@@ -256,7 +256,9 @@ background-color: #17c2a4;
     color: white;
     margin: 25px;
   }
-
+  a:hover{
+    color: $yellow;
+  }
 }
 
 

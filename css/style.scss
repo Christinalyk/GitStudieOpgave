@@ -36,11 +36,31 @@ img {
   max-width: 100%; // Bredde må maks fylde 100%
   height: auto; // Højden skal tilpasse sig
 }
+//variabler:
+$violet: #87509c;
+$darkviolet: #643a79;
+$green: #17c2a4;
+$grey: #e7f1f8;
+$white:#ffffff;
+$yellow: #ffdd99;
+$red: #d74680;
+$blue: #3c5499;
+$darkblue: #344b8e;
+
+
 
 .grid {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: 350px 400px 400px 400px 300px 500px 500px;
+  grid-template-rows:
+          50px 50px 60px 60px 60px 60px
+          90px 90px 90px 90px 90px 90px
+          90px 90px 90px 90px 90px 90px
+          90px 90px 90px 90px 90px 90px
+          90px 90px 90px 90px 90px 90px 90px
+          10px 10px 10px 10px 10px 10px 10px
+          10px 10px 10px 10px 10px 10px 10px;
+
   grid-template-areas:
           "a1 b1 c1 d1 e1 f1"
           "a2 b2 c2 d2 e2 f2"
@@ -54,51 +74,106 @@ img {
           "a10 b10 c10 d10 e10 f10"
           "a11 b11 c11 d11 e11 f11"
           "a12 b12 c12 d12 e12 f12"
-          "a13 b13 c13 d13 e13 f13"; }
+          "a13 b13 c13 d13 e13 f13"
+          "a14 b14 c14 d14 e14 f14"
+          "a15 b15 c15 d15 e15 f15"
+          "a16 b16 c16 d16 e16 f16"
+          "a17 b17 c17 d17 e17 f17"
+          "a18 b18 c18 d18 e18 f18"
+          "a19 b19 c19 d19 e19 f19"
+          "a20 b20 c20 d20 e20 f20"
+          "a21 b21 c21 d21 e21 f21"
+          "a22 b22 c22 d22 e22 f22"; }
 
 
-.red {
+.header {
 grid-column: a1 /f1;
 background-color: #87509c;
-grid-row: a1/a2;
+grid-row: a1/a6;
 }
 
-.blue {
-grid-column: a2 /f2;
-grid-row: a2/a3;
+.logo{
+  grid-column: b1 / c1;
+  grid-row: a2 / a2;
+}
+.menubar {
+  grid-column: e1 / f1;
+  grid-row: e2 / e2;
+  a {
+    text-decoration: none;
+    color: $white;
+    padding: 10px;
+  }
+  a:hover{
+    background-color: $darkviolet;
+  }
+}
+
+.headertekst{
+  text-align: center;
+  grid-column: b3 / e3;
+  grid-row: c4 / e4;
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
+}
+
+.HeaderCTA{
+  grid-column: d4 / d4;
+  grid-row: c6 / d6;
+  margin-left: -50%;
+  margin-top: -10%;
+
+  a{
+    text-decoration: none;
+    padding: 20px;
+    background-color: $yellow;
+  }
+}
+
+
+.green {
+  grid-column: a6 / f7;
+  grid-row: a7 / a14;
+
 background-color: #17c2a4;
 }
 
 .grey {
-  grid-column: a3 /f3;
-  grid-row: a3/a4;
+  grid-column: a8 / f8;
+  grid-row: a15 / a116;
+
   background-color: #e7f1f8;
 }
 
 .white{
-  grid-column: a4 /f4;
-  grid-row: a4/a5;
+  grid-column: a6 / f6;
+  grid-row: a17 / a19;
+
   background-color:white;
 }
 
 .yellow{
-  grid-column: a5 /f5;
-  grid-row: a5/a6;
+  grid-column: a7 / f7;
+  grid-row: a20 / a21;
+
   background-color: #ffdd99;
 }
 .magenta{
-  grid-column: a6 /f6;
-  grid-row: a6/a7;
+  grid-column: a17 / f17;
+  grid-row: a17 / a22;
+
   background-color: #d74680;
 }
 .darkblue{
-  grid-column: a7 /f7;
-  grid-row: a7/a8;
+  grid-column: a23 / f23;
+  grid-row: a23 / a24;
+
   background-color: #3c5499;
 }
 .footerboks{
-  grid-column: a7 /f8;
-  grid-row: a7/a8;
+  grid-column: a24 /f24;
+  grid-row: a24/a24;
   background-color: #344b8e;
   height: 80px;
   align-self: end;

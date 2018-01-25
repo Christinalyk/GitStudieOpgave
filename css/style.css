@@ -27,6 +27,54 @@ img {
   max-width: 100%;
   height: auto; }
 
+.grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 350px 400px 400px 400px 300px 500px 500px;
+  grid-template-areas: "a1 b1 c1 d1 e1 f1" "a2 b2 c2 d2 e2 f2" "a3 b3 c3 d3 e3 f3" "a4 b4 c4 d4 e4 f4" "a5 b5 c5 d5 e5 f5" "a6 b6 c6 d6 e6 f6" "a7 b7 c7 d7 e7 f7" "a8 b8 c8 d8 e8 f8" "a9 b9 c9 d9 e9 f9" "a10 b10 c10 d10 e10 f10" "a11 b11 c11 d11 e11 f11" "a12 b12 c12 d12 e12 f12" "a13 b13 c13 d13 e13 f13"; }
+
+.red {
+  grid-column: a1 /f1;
+  background-color: #87509c;
+  grid-row: a1/a2; }
+
+.blue {
+  grid-column: a2 /f2;
+  grid-row: a2/a3;
+  background-color: #17c2a4; }
+
+.grey {
+  grid-column: a3 /f3;
+  grid-row: a3/a4;
+  background-color: #e7f1f8; }
+
+.white {
+  grid-column: a4 /f4;
+  grid-row: a4/a5;
+  background-color: white; }
+
+.yellow {
+  grid-column: a5 /f5;
+  grid-row: a5/a6;
+  background-color: #ffdd99; }
+
+.magenta {
+  grid-column: a6 /f6;
+  grid-row: a6/a7;
+  background-color: #d74680; }
+
+.darkblue {
+  grid-column: a7 /f7;
+  grid-row: a7/a8;
+  background-color: #3c5499; }
+
+.footerboks {
+  grid-column: a7 /f8;
+  grid-row: a7/a8;
+  background-color: #344b8e;
+  height: 80px;
+  align-self: end; }
+
 @media only screen and (min-width: 768px) {
   body {
     background-color: #ddd; } }

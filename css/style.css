@@ -95,17 +95,78 @@ img {
   grid-row: a24 / a26;
   background-color: #d74680; }
 
+.cirkel1 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: darkgray;
+  margin: 0 0 -15px -50px; }
+
+.whatpeoplesay {
+  grid-column: c18/d18;
+  grid-row: a24/a25;
+  text-align: center;
+  padding: 30px; }
+
+.text1 {
+  grid-column: c24/d24;
+  grid-row: a24/a25;
+  margin-top: 110px; }
+
+.text2 {
+  grid-column: c24/d24;
+  grid-row: a25/a26; }
+
+.text3 {
+  grid-column: d24/e24;
+  grid-row: a24/a25;
+  margin-top: 110px; }
+
+.text4 {
+  grid-column: d24/e24;
+  grid-row: a25/a26; }
+
 .darkblue {
   grid-column: a20 / f20;
   grid-row: a26 / a28;
-  background-color: #3c5499; }
+  background-color: #3c5499;
+  text-align: center; }
+
+.yourname, .youremail {
+  background-color: #344b8e;
+  color: white;
+  border: none;
+  width: 400px;
+  height: 35px; }
+
+.yourmessage {
+  background-color: #344b8e;
+  color: white;
+  border: none;
+  width: 800px;
+  height: 180px; }
+
+.getintouch {
+  margin-top: 20px;
+  color: white; }
+
+.send {
+  background-color: #ffdd99;
+  border: none;
+  width: 200px;
+  height: 35px; }
 
 .footerboks {
   grid-column: a29 /f29;
   grid-row: a29/a29;
   background-color: #344b8e;
   height: 80px;
-  align-self: end; }
+  align-self: end;
+  text-align: center; }
+  .footerboks a {
+    text-decoration: none;
+    color: white;
+    margin: 25px; }
 
 @media only screen and (min-width: 768px) {
   body {
